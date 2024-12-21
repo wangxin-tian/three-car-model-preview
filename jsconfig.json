@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ESNext", // 目标 ECMAScript 版本
+    "module": "ESNext", // 使用的模块系统
+    "lib": ["ESNext", "DOM"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".", // 设置基本路径为项目根目录
+    "paths": {
+      "@/*": ["src/*"] // 设置 @ 表示根目录
+    },
+    "checkJs": true, // 启用对 JavaScript 文件的类型检查（可选）
+    // "jsx": "react", // 指定 JSX 代码的处理方式，若使用 React 则设置为 react
+    "types": ["@types/three"]
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules" // 排除 node_modules 文件夹
+  ]
+}
