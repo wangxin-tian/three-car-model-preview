@@ -11,6 +11,7 @@ dist
 
 # Node dependencies
 node_modules
+.parcel-cache
 
 # System files
 *.log
@@ -23,6 +24,6 @@ dist/
 npm-debug.log
 yarn-error.log
 docs/
-parcel-cache/
+.parcel-cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/vuejs,nuxtjs
